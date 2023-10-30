@@ -24,7 +24,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: var(--liner-gradient-primary)
+  background: var(--liner-gradient-primary);
 }
 
 .calculator-container {
@@ -92,4 +92,37 @@ body {
 
 .calculate:hover {
   background-color: var(--color-primary2);
+}
+
+.social {
+  margin-top: 25px;
+  margin-top: 25px;
+  background-color: var(--color-neutral2);
+  color: var(--color-neutral1);
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+
+  
+}
+.social  a {
+  color: var(--color-primary1);
+  text-decoration: none;
+}
+.social a:hover {
+  text-decoration: underline;
+}
+
+.credits {
+  margin-top: 25px;
+  background-color: var(--color-neutral2);
+  color: var(--color-neutral1);
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.credits  a {
+  color: var(--color-primary1);
+  text-decoration: none;
 }
